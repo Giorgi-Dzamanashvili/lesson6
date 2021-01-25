@@ -1,4 +1,16 @@
+body {
+	height: 2000px;
+}
+.dafixuli {
+	position: fixed;
+	width: 100%;
+	top:0;
+	left:0;
+	z-index: 20;
+	background-color: #ABB2B9;
+}
 .fixed::after {
+	background-color: grey;
 	content:'';
 	clear: both;
 	display: block;
@@ -28,7 +40,7 @@
 	width: 1366px;
 	height: 520px;
 	background-color: #E6E6E6;
-	margin-top: 32.8px;
+	margin-top: 100px;
 }
 .surati {
 	display: block;
@@ -45,4 +57,59 @@
 }
 .margint {
 	margin-top: 8px;
+}
+/*mesame boxi*/
+.boxthree {
+	position: relative;
+	width: 1366px;
+	height: 499.33px;
+	background-color: #363E97;
+}
+.firstdiv,
+.seconddiv {
+	width: 570px;
+	height: 320px;
+	background-color: white;
+	float: left;
+	margin-top: 90px;
+}
+.seconddiv {
+	margin-left: 30px;
+}
+.firstdiv {
+	margin-left: 98px;
+}
+.meoretexti {
+	position: absolute;
+	top: 30px;
+	left: 80px;
+	width: 100px;
+	color: white;
+}
+.xazi {
+	position: absolute;
+	width: 2px;
+	height: 20px;
+	background-color: white;
+	margin-left: 170px;
+	margin-top: 30px;
+	content:'';
+	clear: both;
+	display: block;
+}
+.satauri {
+	font-size: 24px;
+}
+.para {
+	position: absolute;
+	top: 32px;
+	left: 180px;
+	color: white;
+	font-size: 18px;
+}
+/*meotxe boxi*/
+.boxfour {
+	width: 1366px;
+	height: 450px;
+	background-color: #BDCCD4;
 }
