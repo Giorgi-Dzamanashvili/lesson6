@@ -93,9 +93,6 @@ body {
 	background-color: white;
 	margin-left: 200px;
 	margin-top: 30px;
-	content:'';
-	clear: both;
-	display: block;
 }
 .satauri {
 	font-size: 24px;
@@ -109,6 +106,7 @@ body {
 }
 /*meotxe boxi*/
 .boxfour {
+	position: relative;
 	width: 1366px;
 	height: 450px;
 	background-color: #BDCCD4;
@@ -144,5 +142,105 @@ body {
 .sataurebi {
 	text-align: center;
 	padding-top: 20px;
+}
+.satauri2 {
+	position: absolute;
+	top: 30px;
+	left: 100px;
+	width: 100px;
+	color: blue;
+	font-size: 24px;
+}
+.xazi1 {
+	position: absolute;
+	width: 2px;
+	height: 20px;
+	background-color: blue;
+	top: 30px;
+	left: 200px;
+}
+.para1 {
+	position: absolute;
+	top: 32px;
+	left: 220px;
+	color: blue;
+	font-size: 18px;
+}
+/*bolo boxi*/
+.bolo {
+	content:'';
+	clear: both;
+	display: block;
+	width: 1366px;
+	height: 345.46px;
+	background-color: #E6E6E6;
+	position: relative;
+}
+.pirveli {
+	float: left;
+	width: 570px;
+	height: 225px;
+	background-color:#F2F2F2;
+	margin-top: 90px;
+	margin-left: 98px;
+}
+.meore {
+	float: left;
+	width: 570px;
+	height: 225px;
+	background-color:#F2F2F2;
+	margin-top: 90px;
+	margin-left: 29px;
+}
+.sataurifirst {
+	display: block;
+	width: 274px;
+	height: 29px;
+	margin-top: 11.1px;
+	margin-left: 20.8px;
+	font-size: 22px;
+	color: blue;
+}
+.suratifirst {
+	float: left;
+	margin-left: 38.8px;
+	margin-top: 17.4px;
+}
+.parafirst {
+	width: 355px;
+	height: 143.29px;
+	font-size: 23px;
+	float: left;
+	margin-left: 60.3px;
+	margin-top: 17.4px;
+}
+.xazi2 {
+	position: absolute;
+	width: 2px;
+	height: 20px;
+	background-color: black;
+	top: 30px;
+	left: 220px;
+}
+.satauri3 {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	width: 100px;
+	color: black;
+	font-size: 24px;
+}
+.para2 {
+	position: absolute;
+	top: 32px;
+	left: 230px;
+	color: black;
+	font-size: 18px;
+}
+/*footer*/
+.dabla {
+	margin-top: 30px;
+	margin-left: 30px;
+	font-size: 28px;
 }
 
